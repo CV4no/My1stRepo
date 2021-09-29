@@ -4,6 +4,8 @@ cd /opt/splunk/bin;
 ./splunk start --accept-license;
 ./splunk stop;
 ./splunk enable boot-start -user splunk;
+echo whoami;
 chown -R splunk:splunk /opt/splunk;
 sudo su - splunk;
+echo whoami;
 /opt/splunk/bin/splunk start
