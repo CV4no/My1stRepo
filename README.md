@@ -1,1 +1,2 @@
-# This is a Repo to hold all of our Splunk installs.
+# Splunk HF 8.2* Deb/Rpm
+# Splunk UF 8.2* Deb/Rpm
