@@ -3,7 +3,7 @@ dpkg -i splunk-8.2.0-e053ef3c985f-linux-2.6-amd64.deb;
 cd /opt/splunk/bin;
 ./splunk start --accept-license;
 ./splunk stop;
-./splunk enable boot-start -u splunk;
+./splunk enable boot-start -user splunk;
 chown -R splunk:splunk /opt/splunk;
 su - splunk;
 cd /opt/splunk/bin;
