@@ -7,4 +7,4 @@ cd /opt/splunkforwarder/bin;
 chown -R splunk:splunk /opt/splunkforwarder;
 su - splunk;
 cd /opt/splunkforwarder/bin;
-./splunk start;
+/opt/splunkforwarder/bin/splunk start;
