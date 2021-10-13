@@ -9,4 +9,4 @@ chown -R splunk:splunk /opt/splunk;
 sudo su - splunk;
 chmod 755 Splunk_Ent_Rpm.sh
 echo "$USER";
-./splunk start;
+/opt/splunk/bin/splunk start;
