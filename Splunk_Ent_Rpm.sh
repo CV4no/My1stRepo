@@ -8,4 +8,4 @@ echo "$USER";
 chown -R splunk:splunk /opt/splunk;
 sudo su - splunk;
 echo "$USER";
-/opt/splunk/bin/splunk start
+./splunk start;
